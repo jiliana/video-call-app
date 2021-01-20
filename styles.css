@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #375C8E;
+}
+
+#container {
+    background-color: white;
+}
+
+#flexContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    text-align: center;
+}
+
+#left-pane {
+    order: 1;
+    background-image: linear-gradient(to right, #0776d7, #0885e6, #099dfd);
+    padding: 5%;
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 10%;
+    box-shadow: 10px 10px 20px lightgrey;
+    border-radius: 20px;
+}
+
+#right-pane {
+    order: 2;
+    background-image: linear-gradient(to right, #099dfd, #7eccfe, #daf0ff);
+    padding: 5%;
+    width: 50%;
+    margin-top: 10%;
+    box-shadow: 10px 10px 20px lightgrey;
+    border-radius: 20px;
+
+}
+
+#illustration{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#illustrationContainer{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.logo{
+    margin: 5px 0 0 5px;
+}
+
+#img-container{
+    max-width: 5%;
+    max-height: 5%;
+}
+
+#descriptionContainer {
+    margin-top: 10%;
+}
+
+.loginContainer{
+    margin: 80px 20px;
+}
+
+#headingText{
+    font-size: 1.5rem;
+}
+#highlighted{
+    color: white;
+    font-size: 2rem;
+}
+
+#email{
+    margin-top: 30px;
+}
+
+input{
+    margin-top: 20px;
+    padding: 5px;
+    width: 90%;
+    font-size: 1rem;
+    border: 1px solid lightgray;
+    border-style: inset;
+    border-radius: 20px;
+}
+.submitButton{
+    background-color: white;
+    color: #099dfd;
+    border: none;
+    opacity: 0.7;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    font-size: 1.5rem;
+    border-radius: 20px;
+}
+
+#bottomText{
+    font-size: 1.5rem;
+    color: white;
+}
